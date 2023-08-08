@@ -85,8 +85,8 @@ img {
   gap: 40px;
   padding: 24px 0;
 }
-.nav-item {
-  padding: 24px 0;
+/* .nav-item { */
+  
 }
 
 .nav-list-link .link {
@@ -95,6 +95,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-list-link .link:hover,
 .nav-list-link .link:focus {
