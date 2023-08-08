@@ -15,6 +15,38 @@ body {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Header */
 
 .logo-first {
@@ -87,7 +119,7 @@ body {
   background-color: #404bbf;
 }
 
-/* Section-first */
+/* Section Information */
 
 .information .title {
   color: var(--primary-text-color);
@@ -102,7 +134,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Section-second */
+/* Section Work */
 
 .work-title {
   color: var(--primary-text-color);
@@ -113,7 +145,7 @@ body {
   text-transform: capitalize;
 }
 
-/* Section-third */
+/* Section Team */
 
 .team {
   background-color: #f4f4fd;
