@@ -60,7 +60,10 @@ img {
 
 .header-block {
   display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
+
 .logo-first {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -116,10 +119,6 @@ img {
 .addres-link:focus {
   color: #404bbf;
 }
-.adress-list {
-  display: flex;
-  gap: 40px;
-}
 
 /* Hero */
 
@@ -134,6 +133,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: auto;
 }
 .button {
   color: #ffffff;
@@ -149,6 +149,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: auto;
 }
 .button:hover,
 .button:focus {
